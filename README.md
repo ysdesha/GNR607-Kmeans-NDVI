@@ -18,7 +18,7 @@ Compute NDVI to isolate vegetation using a user-defined threshold, then apply K-
     vegetation = NDVI > threshold
     ```
 - **K (Clusters)**: Integer; number of K-Means clusters (excluding vegetation).  
-- **Downsample Target**: Default 1000 pixels for faster clustering.
+
 
 ---
 
