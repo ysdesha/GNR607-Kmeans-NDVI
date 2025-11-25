@@ -4,9 +4,13 @@
 Compute NDVI to isolate vegetation using a user-defined threshold, then apply K-Means clustering on non-vegetated areas using 4 spectral bands (B2–B5).
 
 ---
+## Source Code
+- The complete implementation is in [`sourcecode.py`](sourcecode.py).
+---
 
 ## Input Data
-- **B2 (Blue), B3 (Green), B4 (Red), B5 (NIR)**: Georeferenced TIFFs, same scene & aligned (CRS, transform, resolution, dimensions).  
+- **B2 (Blue), B3 (Green), B4 (Red), B5 (NIR)**: Georeferenced TIFFs, same scene & aligned (CRS, transform, resolution, dimensions).
+- - **Input Images**: [https://drive.google.com/file/d/1ieMfrZ-k2a3d7ocRQme2onwkGmmu6cPE/view?usp=sharing](inputimages)
 - **Output Folder**: Directory to save results.
 
 ---
